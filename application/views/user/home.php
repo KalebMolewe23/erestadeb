@@ -1,5 +1,5 @@
 <section id="header">
-    <a href=""><img src="<?= base_url("assets/logo/logo.png") ?>" class="logo" alt="" width="150px"></a>
+    <a href=""><img src="<?= base_url("assets/logo/eresta_dev.png") ?>" class="logo" alt="" width="250px"></a>
 
     <div>
         <ul id="navbar">
@@ -37,10 +37,19 @@
 
 <section id="hero">
     <div class="container">
-        <h1><strong>ERESTAWEB DEVELOVER</strong></h1>
-        <h1><strong>ERESTAWEB DEVELOVER</strong></h1><br><br><br>
-        <div class="animasi-teks"><strong>Jadikan Project Keinginan Kalian, Kami Siap Membantu.....</strong></div>
-    </div>
+        <!-- <canvas id="canvas"> -->
+            <div class="row">
+                <div class="col">
+                    <h2><strong>Website Developer</strong></h2>
+                    <h5>Jasa pembuatan ,pengembangan website, </h5>
+                    <h5>dan custome sesuai kebutuhan anda </h5><br>
+                    <h5 class="typewrite text-black" data-period="2000" data-type='["Jadikan Project Keinginan Anda, Kami Siap Membantu....." ]'></h5>
+                </div>
+                <div class="col col-lg-3">
+                    <img src="<?= base_url("assets/image/cpu.png"); ?>" width="350px">
+                </div>
+            </div>
+        <!-- </canvas> -->
 </section>
 
 
@@ -49,21 +58,3 @@
         <a href="https://wa.me/6285236940533?text=Halo+erestaweb,+saya berminat dengan jasa anda" target="_blank"><img src="https://www.azostech.com/azapp/application/azcms/azostech/assets/images/chatwa.png"></a>
     </div>
 </section>
-
-<script>
-    const bar = document.getElementById('bar');
-    const close = document.getElementById('close');
-    const nav = document.getElementById('navbar');
-
-    if (bar) {
-        bar.addEventListener('click', () => {
-            nav.classList.add('active');
-        })
-    }
-
-    if (close) {
-        close.addEventListener('click', () => {
-            nav.classList.remove('active');
-        })
-    }
-</script>
