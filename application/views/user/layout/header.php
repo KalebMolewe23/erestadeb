@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="<?= base_url("assets/user/style.css") ?>">
 </head>
 
-<style>
+<!-- <style>
     #canvas{
         width: 100%;
         height: 100%;
     }
-</style>
+</style> -->
 
 <body>
