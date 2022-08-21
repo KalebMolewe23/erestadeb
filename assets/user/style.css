@@ -1036,7 +1036,7 @@ footer .copyright{
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 477px){
     .section-p1{
         padding: 20px;
     }
@@ -1117,115 +1117,6 @@ footer .copyright{
         width: 100%;
     }
     #subtotal{
-        width: 100%;
-        padding: 20px;
-    }
-}
-
-@media (max-width: 477px) {
-    .section-p1 {
-        padding: 20px;
-    }
-
-    .card {
-        grid-column: span 4;
-    }
-
-    #header {
-        padding: 10px 30px;
-    }
-
-    #img-wa {
-        position: fixed;
-        bottom: 3px;
-        left: 3px
-    }
-
-    #img-wa img {
-        height: 85px
-    }
-
-    h1 {
-        font-size: 38px;
-    }
-
-    h2 {
-        font-size: 32px;
-    }
-
-    #hero {
-        padding: 0 10px;
-        background-position: 55%;
-    }
-
-    #feature {
-        justify-content: space-between;
-    }
-
-    #feature .fe-box {
-        width: 155px;
-        margin: 0 0 15px 0;
-    }
-
-    #product1 .pro {
-        width: 100%;
-    }
-
-    #banner {
-        height: 40vh;
-    }
-
-    #sm-banner .banner-box {
-        height: 40vh;
-    }
-
-    #sm-banner .banner-box2 {
-        margin-top: 20px;
-    }
-
-    #banner3 {
-        padding: 0 20px;
-    }
-
-    #banner3 .banner-box {
-        width: 100%;
-    }
-
-    #newsletter {
-        padding: 40px 20px;
-    }
-
-    #newsletter .form {
-        width: 100%;
-    }
-
-    footer .copyright {
-        text-align: start;
-    }
-
-    #prodetails {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #prodetails .single-pro-image {
-        width: 100%;
-        margin-right: 0px;
-    }
-
-    #prodetails .single-pro-details {
-        width: 100%;
-    }
-
-    #cart-add {
-        flex-direction: column;
-    }
-
-    #coupon {
-        width: 100%;
-    }
-
-    #subtotal {
         width: 100%;
         padding: 20px;
     }
