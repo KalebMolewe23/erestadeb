@@ -27,7 +27,7 @@
         <div class="container">
             <h3>Join :<?= $user['created']; ?></h3>
         </div>
-        <div class="my_list">
+        <div class="my_list table-responsive">
             <table id="customers" style="width:100%">
                 <thead>
                     <tr>
