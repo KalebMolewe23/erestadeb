@@ -7,7 +7,7 @@
                     <?= $this->session->flashdata('message') ?>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" name="email" placeholder="Email" />
+                        <input type="text" name="username" placeholder="Username" />
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
